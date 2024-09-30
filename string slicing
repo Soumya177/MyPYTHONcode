@@ -1,0 +1,19 @@
+text = "Hello, World!"
+
+# Extracting "Hello"
+print(text[0:5])  # Output: Hello
+
+# Extracting "World"
+print(text[7:12])  # Output: World
+
+# Extracting "Hello, World!"
+print(text[:])  # Output: Hello, World!
+
+# Extracting "World!" using step
+print(text[7:])  # Output: World!
+
+# Extracting "Hello, Wo" using step
+print(text[:9])  # Output: Hello, Wo
+
+# Extracting every second character "Hlo ol!"
+print(text[::2])  # Output: Hlo ol!
